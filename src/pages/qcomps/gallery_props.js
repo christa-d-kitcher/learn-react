@@ -1,3 +1,17 @@
+
+const baseUrl = 'https://i.imgur.com/';
+
+const scientist = {
+  name: 'Maria Skłodowska-Curie',
+  imageId: 'szV5sdGs',
+  profession: 'physicist and chemist',
+  awards: {
+    number: '4',
+    names: ['Nobel Prize in Physics', 'Nobel Prize in Chemistry', 'Davy Medal', 'Matteucci Medal']
+  },
+  discovered: 'polonium (element)'
+}
+
 export default function Gallery() {
   return (
     <div>
