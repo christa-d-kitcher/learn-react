@@ -3,11 +3,15 @@
 // import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Profile from './components/profile'
+import List from './components/list_keys'
+
 
 export default function Home() {
   return (
     <div className={styles.main}>
         <Profile />
+        <List />
+
     </div>
   )
 }
