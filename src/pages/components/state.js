@@ -13,7 +13,7 @@ export default function Gallery() {
     <>
       <button onClick={handleClick}>
         Next
-      </button>
+      </button>    
       <h2>
         <i>{sculpture.name} </i>
         by {sculpture.artist}
@@ -24,7 +24,7 @@ export default function Gallery() {
       <img
         src={sculpture.url}
         alt={sculpture.alt}
-      />
+      />                                                                        
       <p>
         {sculpture.description}
       </p>
